@@ -18,7 +18,6 @@ const ProfilePage = () => {
     const response = await fetch(`https://socio-pedia-be.vercel.app/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
-      ,
     });
     const data = await response.json();
     setUser(data);
