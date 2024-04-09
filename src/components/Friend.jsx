@@ -35,6 +35,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",
         },
+        credentials: true,
       }
     );
     const data = await response.json();

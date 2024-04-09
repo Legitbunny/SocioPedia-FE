@@ -45,6 +45,7 @@ const PostWidget = ({
             Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",
           },
+          credentials: true,
           body: JSON.stringify({ userId: loggedInUserId }),
         }
       );

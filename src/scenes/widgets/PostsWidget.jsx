@@ -28,6 +28,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
+        credentials: true,
       }
     );
     const data = await response.json();
