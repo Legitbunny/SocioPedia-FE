@@ -38,7 +38,7 @@ const PostWidget = ({
   const patchLike = async () => {
     try {
       const response = await fetch(
-        `https://socio-pedia-be.vercel.app/posts/${postId}/like`,
+        `https://sociopedia-be-x48o.onrender.com/posts/${postId}/like`,
         {
           method: "PATCH",
           headers: {
@@ -74,7 +74,7 @@ const PostWidget = ({
             height="auto"
             alt="post"
             style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-            src={`https://socio-pedia-be.vercel.app/assets/${picturePath}`}
+            src={`https://sociopedia-be-x48o.onrender.com/assets/${picturePath}`}
           />
         )}
         <FlexBetween mt="0.25rem">

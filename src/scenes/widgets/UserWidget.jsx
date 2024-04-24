@@ -24,7 +24,7 @@ const UserWidget = ({ userId, picturePath }) => {
   const getUser = async () => {
     // console.log("userId", userId);
     try{
-      const response = await fetch(`https://socio-pedia-be.vercel.app/users/${userId}`, {
+      const response = await fetch(`https://sociopedia-be-x48o.onrender.com/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

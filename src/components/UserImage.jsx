@@ -9,7 +9,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://socio-pedia-be.vercel.app/assets/${image}`}
+        src={`https://sociopedia-be-x48o.onrender.com/assets/${image}`}
       />
     </Box>
     </div>
